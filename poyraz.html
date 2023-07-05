@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title></title>
+</head>
+<link rel="stylesheet" href="lightbox.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+*{
+ margin: 0;
+ padding: 0;
+ 
+ 
+}
+ .hedear{
+  display: flex;
+ background:url(maxresdefault.jpg);
+ height: 55px;
+ font-family: monospace;
+ position: sticky;
+  top: 0;
+  z-index: 4;
+ 
+  
+ }
+.list1 ul{
+  display: flex;
+  justify-content: space-between;
+
+  list-style: none;
+  
+ }
+ .list2 ul{
+  display: flex;
+  justify-content: space-between;
+
+  list-style: none;
+  margin-right: 0px;
+  
+ }
+ ul li{
+  margin-left: 13px;
+  margin-top: 20px;
+  
+ }
+ ul li a{
+  text-decoration: none;
+  color:white;
+  font-weight: bold;
+  font-size: 15px;
+ }
+ ul li a:hover{
+  color: darkred;
+  border-bottom: 1px dotted darkred; 
+ }
+.log img{
+   width: 70px;
+   margin-top: -30px;
+   margin-left: 6px;
+  }
+  .home{
+   background: url(maxresdefault.jpg);
+   height: 220px;
+   background-size: contain;
+ background-repeat: no-repeat;
+ 
+
+  }
+  .qouats {
+   background: #FFFFFF;
+   text-align: center;
+   
+  }
+  .titel h1{
+     color: darkred;
+     font-size: 22px;
+     font-weight: bold;
+     border-bottom: solid 1px darkred;
+    border-width: 6px;
+     max-width: 120px;
+     margin-left: 110px;
+  
+    }
+    .Quo{
+     display: flex;
+     flex-wrap: wrap;
+     margin:0;
+     
+    }
+    .Quo img{
+     width: 143px;
+     height: 143px;
+     margin-left: 15px;
+     margin-top: 30px;
+    
+     transition: 0.5s;
+    }
+  
+  .Quo img:hover{
+   transform: scale(1.1);
+   z-index: 3;
+  }
+  .About{
+   margin-top: 30px;
+   text-align: center;
+  }
+  .About h1{color: darkred;
+   font-size: 22px;
+   font-weight: bold;
+   border-bottom: solid 1px darkred;
+   border-width: 6px;
+   max-width: 120px;
+   margin-left: 110px;
+   text-align: center;
+   
+  }
+  .About .photo{
+   display: flex;
+  }
+  .About .photo img{
+   width: 143px;
+   text-align: center;
+   margin-top: 20px;
+   flex-wrap: wrap;
+   margin-left: 20px;
+  }
+  
+  .About p{
+   width: 330px;
+   margin-left: 10px;
+   margin-top: 20px;
+   font-family: 'Cairo', sans-serif;
+   font-size: 17px;
+   text-align: center;
+  
+  }
+  .About h2{
+   text-align: center;
+   font-family: 'Cairo', sans-serif;
+  }
+  .act img{ width: 310px}
+  .About span{
+   color: darkred;
+   width: 20px;
+   font-size: 18px;
+   font-family: 'Cairo', sans-serif;
+  
+  
+  }
+   .contact {
+    margin-top: 30px;
+   }
+  .contact h1{
+   color: darkred;
+   font-size: 22px;
+   font-weight: bold;
+   border-bottom: solid 1px darkred;
+   border-width: 6px;
+   max-width: 120px;
+   margin-left: 110px;
+   text-align: center;
+  }
+  .con{
+   width: 320px;
+   display: flex;
+   margin-top: 40px;
+   justify-content: space-between;
+  }
+  
+ .con img{
+  width: 130px;
+ }
+ .con .info{ width: 230px;
+ height: 130px;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+ }
+ .info h4 {text-align: center ;
+ margin-top: 3px;
+  
+ }
+ .info ul{
+  color: #0418FE;
+  list-style: none;
+  margin-top: ;
+ }
+  .info ul li{
+   margin-top: 12px;
+  }
+ 
+ footer{
+  background: black;
+  color: white;
+  height: 20px;
+  margin-top: 40px;
+padding-left: 10px;
+  padding-top: 10px;
+ }
+ html{
+  scroll-behavior: smooth;
+ }
+</style>
+<body>
+<div class="container">
+ <div class="hedear">
+  <div class="list1">
+  <ul>
+   <li><a href="#Homme">Homme</a></li>
+   <li><a href="#Quotes">Quotes</a></li>
+  </ul>
+  </div>
+  <div class="log">
+   <img src="wp4810560-removebg-preview.png" alt="">
+   </div>
+   
+   <div class="list2">
+   <ul>
+   <li><a href="#About">About</a></li>
+   <li><a href="#Contact">Contact</a></li>
+  </ul>
+</div>
+   
+ </div>
+ <div class="home" id="Homme"> </div>
+<div class="qouats" id="Quotes">
+ <div class="titel">
+  <h1>Quotes</h1>
+ </div>
+ <div class="Quo">
+  <a href="a.jpg" data-lightbox="galary" data-titel="pic number1">
+  <img src="a.jpg">
+  </a>
+    <a href="l.jpg"data-lightbox="galary" data-titel="pic number2">
+    <img src="l.jpg">
+      </a>
+        <a href="c.jpg" data-lightbox="galary" data-titel="pic number3">
+      <img src="c.jpg">
+            </a>
+            <a href="d.jpg" data-lightbox="galary" data-titel="pic number4">
+        <img src="d.jpg">
+        </a>
+<a href="e.jpg" data-lightbox="galary" data-titel="pic number5">
+          <img src="e.jpg">
+              </a>
+<a href="f.jpg" data-lightbox="galary" data-titel="pic number6">
+            <img src="f.jpg">
+              </a>
+              <a href="j.jpg" data-lightbox="galary" data-titel="pic number7">
+              <img src="j.jpg">
+                </a>
+                <a href="h.jpg"  data-lightbox="galary" data-titel="pic number8">
+                <img src="h.jpg">
+</a>
+<a href="i.jpg" data-lightbox="galary" data-titel="pic number9">
+                  <img src="i.jpg">
+                    </a>
+                    <a href="k.jpg" data-lightbox="galary" data-titel="pic number10">
+                    <img src="k.jpg">
+                      </a>
+                      
+                      
+                      <a href="o.jpg" data-lightbox="galary" data-titel="pic number11">
+                    <img src="o.jpg">
+                      </a>
+                      
+                      <a href="p.jpg" data-lightbox="galary" data-titel="pic number12">
+                       <img src="p.jpg">
+                      </a>
+                      
+                      <a href="q.jpg" data-lightbox="galary" data-titel="pic number13">
+                       <img src="q.jpg">
+                      </a>
+                      
+                      <a href="r.jpg" data-lightbox="galary" data-titel="pic number14">
+                       <img src="r.jpg">
+                      </a>
+                      
+                      <a href="s.jpg" data-lightbox="galary" data-titel="pic number15">
+                       <img src="s.jpg">
+                      </a>
+                      
+                      <a href="t.jpg" data-lightbox="galary" data-titel="pic number16">
+                       <img src="t.jpg">
+                      </a>
+                      
+                      <a href="u.jpg" data-lightbox="galary" data-titel="pic number17">
+                       <img src="u.jpg">
+                      </a>
+                      
+                      <a href="v.jpg" data-lightbox="galary" data-titel="pic number18">
+                       <img src="v.jpg">
+                      </a>
+                      
+                      <a href="w.jpg" data-lightbox="galary" data-titel="pic number19">
+                       <img src="w.jpg">
+                      </a>
+                      
+                       <a href="x.jpg" data-lightbox="galary" data-titel="pic number19">
+                        <img src="x.jpg">
+                       </a>
+                       
+                        <a href="y.jpg" data-lightbox="galary" data-titel="pic number19">
+                         <img src="y.jpg">
+                        </a>
+                        
+                         <a href="z.jpg" data-lightbox="galary" data-titel="pic number19">
+                          <img src="z.jpg">
+                         </a>
+                         
+                          <a href="aa.jpg" data-lightbox="galary" data-titel="pic number19">
+                           <img src="aa.jpg">
+                          </a>
+                          
+                           <a href="ab.jpg" data-lightbox="galary" data-titel="pic number19">
+                            <img src="ab.jpg">
+                           </a>
+                           
+                            <a href="ac.jpg" data-lightbox="galary" data-titel="pic number19">
+                             <img src="ac.jpg">
+                            </a>
+                            
+                          <a href="ad.jpg" data-lightbox="galary" data-titel="pic number19">
+                           <img src="ad.jpg">
+                          </a>
+                          
+                           <a href="ae.jpg" data-lightbox="galary" data-titel="pic number19">
+                            <img src="ae.jpg">
+                           </a>
+                           
+                            <a href="af.jpg" data-lightbox="galary" data-titel="pic number19">
+                             <img src="af.jpg">
+                            </a>
+                            
+                             <a href="aj.jpg" data-lightbox="galary" data-titel="pic number19">
+                              <img src="aj.jpg">
+                             </a>
+                             
+                              <a href="ah.jpg" data-lightbox="galary" data-titel="pic number19">
+                               <img src="ah.jpg">
+                              </a>
+                              
+                               <a href="ai.jpg" data-lightbox="galary" data-titel="pic number19">
+                                <img src="ai.jpg">
+                               </a>
+                      
+ </div>
+</div>
+<div class="About" id="About">
+
+ <h1>About</h1>
+  <div class="photo">
+   <img src="m.jpg" alt="">
+   <img src="n.jpg" alt="">
+  </div>
+ <p>يحكي العمل قصة ضابط شرطة يُدعى أحمد بويراز ، والذي يعيش حياة سعيدة إلى جانب ابنه، وبينما يعمل في قضية لمحاربة التهريب، يقع في فخ، فيتم اعتقاله بعد اتهامه بجريمة لم يرتكبها، ثمّ يسجن لمدة سنة، هذا الأمر، يُفقده حضانة ابنه، لينتقل الأخير ليعيش مع جده والد أمه خرج بويراز من السجن، وهو مليء باليأس، فهو الآن ليس ضابط شرطة، كما ليس باستطاعته استعادة ابنه,بسبب عدم امتلاكه لوظيفة ثابتة لاحقًا، يبدأ بالعمل سائقًا للتاكسي، وفي الوقت ذاته، يراقب سر أخطر زعيم مافيا في اسطنبول، والذي يُدعى بحري، ويبلغ بدوره رئيس الشرطة عن تحركاته أولًا بأول في إحدى المرات، ينقذ بويراز حياة بحري، ورغم أنّ لم يقصد ذلك، إلّا أنّه يحوز على ثقته، فيحصل على عرض عمل من بحري، ويوافقه عليه بعد اتفاقه مع رئيس الشرطة، وذلك في محاولة لاستعادة ابنه من جديد، لاحقًا، يلتقي بويراز بعائشة جول، وهي طبيبة شابة جميلة، يقعان في الحب من النظرة الأولى، وهنا، لا يعلم بويراز أنّ هذه الفتاة هي ابنة بحري الكثير من الأحداث المثيرة والمليئة بالأكشن والمطاردت يعرضها العمل، والتي قد يحدث في مجملها موت بويراز  أو انتصاره وتحقيق أهدافه مع الحفاظ على حياته.
+</p>
+<h2> :أبطال مسلسل بويراز كارايل
+</h2>
+
+<div class="act">
+ <img src="5.jpg" alt="">
+</div>
+<span>
+ إيجي أوزديكيتشي
+<br />
+بورتشين تيرزي أوغلو <br>
+
+
+موسى أوزنلار <br />
+
+إيلكر كاليلي <br>
+
+فوندا ايرييت <br>
+
+عايدة اكسل <br>
+
+جيم جيجينوغلو <br>
+
+جليل نالتشاكان <br>
+
+شيبنام هاسنيسوغفي <br>
+
+بيستي كوكديمير <br>
+
+إليكر اكسوم <br>
+
+كانبولات ارسلان <br>
+ 
+</span>
+
+</div>
+<div class="contact" id="Contact">
+ <h1>Contact</h1>
+ <div class="con">
+  
+
+ <img src="4.png" alt="">
+ <div class="info">
+  <h4>Contact information</h4>
+  <ul>
+   <li>mrifi703@gmail.com</li>
+     <li>0671870811</li>
+       <li>Mohamed bouayach</li>
+  </ul>
+ </div>
+  </div>
+</div>
+<footer>
+ ©poyraz karayel 2015-2017
+</footer>
+ 
+</div>
+<script src="lightbox-plus-jquery.min.js"></script>
+</body>
+
+</html>
